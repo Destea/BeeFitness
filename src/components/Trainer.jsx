@@ -1,4 +1,5 @@
 import Card from "../UI/Card"
+import React, { Component }  from 'react';
 
 const Trainer = ({image, name, job, socials}) => {
   return (

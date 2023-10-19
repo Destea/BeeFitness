@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import Image from "../images/values.jpg"
 import SectionHead from "./SectionHead"
 import { GiCutDiamond } from "react-icons/gi"

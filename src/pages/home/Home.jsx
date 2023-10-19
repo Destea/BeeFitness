@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import "./home.css"
 import MainHeader from "../../components/MainHeader"
 import Programs from "../../components/Programs"

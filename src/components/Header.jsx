@@ -1,4 +1,4 @@
-
+import React, { Component }  from 'react';
 
 const Header = ({title, image, children}) => {
   return (

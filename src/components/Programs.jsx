@@ -4,6 +4,7 @@ import { programs } from "../data"
 import { Link } from "react-router-dom"
 import { AiFillCaretRight } from "react-icons/ai"
 import Card from "../UI/Card"
+import React, { Component }  from 'react';
 
 const Programs = () => {
   return (

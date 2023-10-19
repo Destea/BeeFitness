@@ -40,7 +40,7 @@
   width: 25rem;
   height: 25rem;
   background: linear-gradient(75deg, var(--color-secondary), transparent);
-  border-radius: 50%;
+  border-radius: 70%;
   position: absolute;
   transition: var(--transition);
 }
@@ -48,6 +48,51 @@
 .maintoheader-image {
   position: relative;
 }
+/* .maintoheader-image Styles */
+.maintoheader-image {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Define the carousel container */
+.maintoheader-image .carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Define the individual carousel items (images) */
+.maintoheader-image .carousel-item {
+  width: 100%;
+  min-width: 100%;
+  flex-shrink: 0;
+  height: auto;
+}
+
+/* Add animation styles for the carousel transition */
+.maintoheader-image .carousel-container {
+  animation: slide 5s linear infinite;
+}
+
+/* Define keyframes for the slide animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 
 .maintoheader-right:hover .maintoheader-circle {
   filter: blur(10px);

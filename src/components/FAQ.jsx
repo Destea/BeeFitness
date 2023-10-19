@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { useState } from "react"
 import { AiOutlinePlus } from "react-icons/ai"
 import { AiOutlineMinus } from "react-icons/ai"

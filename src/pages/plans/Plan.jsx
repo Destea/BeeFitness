@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import "./plan.css"
 import Header from "../../components/Header"
 import HeaderImage from "../../images/header_bg_4.jpg"

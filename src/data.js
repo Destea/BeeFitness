@@ -1,5 +1,5 @@
 import { SiOpenaigym } from 'react-icons/si'
-
+import React, { Component }  from 'react';
 
 
 export const links = [

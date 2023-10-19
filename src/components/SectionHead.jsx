@@ -1,4 +1,4 @@
-
+import React, { Component }  from 'react';
 
 const SectionHead = ({ icon, title, className }) => {
   return (

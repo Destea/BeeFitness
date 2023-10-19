@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { Link } from "react-router-dom"
 import Logo from "../images/logo.png"
 import { FaLinkedin, FaFacebookF } from "react-icons/fa"
@@ -45,7 +46,7 @@ const Footer = () => {
         </article>
       </div>
       <div className="footertocopyright">
-        <small>2023 TIIMCMY COP &copy; All Right Reserverd</small>
+        <small>2023 DESTEA-BEE &copy; All Right Reserverd</small>
       </div>
     </footer>
   )

@@ -4,6 +4,7 @@ import HeaderImage from "../../images/header_bg_2.jpg"
 import { MdEmail } from "react-icons/md"
 import { BsMessenger } from "react-icons/bs"
 import { BsLine } from "react-icons/bs"
+import React, { Component }  from 'react';
 
 const Contact = () => {
   return (
